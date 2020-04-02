@@ -1,0 +1,185 @@
+body{
+  margin: 0px;
+  text-align: center;
+
+}
+
+p{
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a: hover{
+  color: grey;
+  text-decoration: none;
+
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+hr{
+  border-style: none;
+  border-top-style: solid;
+  border-color:  #af0404;
+  border-width: 10px;
+  width: 5%;
+  margin: 50px auto;
+}
+
+
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #ff0000;
+  font-family: 'Shadows Into Light', cursive;
+  line-height: 2;
+
+}
+
+h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+    color: #ff7315;
+}
+
+h3{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ff0000;
+}
+
+
+.top-container{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #252525;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 0px;
+}
+
+.middle-container{
+
+  margin: 0px;
+}
+
+.bottom-container{
+background-color: #AF0404;
+margin-bottom: 0px;
+margin: 0px;
+}
+
+
+.pro{
+  text-decoration: underline;
+}
+
+.volcano{
+  height: 400px;
+  width: 400px;
+}
+
+.cloundA{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.cloudB{
+  position: absolute;
+  bottom: 350px;
+  left: 300px;
+}
+
+.round{
+  border-radius: 50%;
+  width: 15%;
+  background-color: #414141;
+}
+
+
+
+.skill-image{
+  border-radius: 50%;
+  width: 25%;
+  background-color: #af0404;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image2{
+  border-radius: 50%;
+  width: 25%;
+  background-color: #af0404;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.pteroA{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 150px;
+  top: 80px;
+}
+
+.pteroB{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  right: 150px;
+  bottom: 450px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 75px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #ff0000 5%, #af0404 100%);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-me{
+  padding-bottom: 50px;
+}
+
+.footer-link{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.copyright{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.links{
+  padding-top: 35px;
+}
